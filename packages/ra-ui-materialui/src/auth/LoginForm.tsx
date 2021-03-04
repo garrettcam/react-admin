@@ -114,6 +114,7 @@ const LoginForm: FunctionComponent<Props> = props => {
                                 component={Input}
                                 label={translate('ra.auth.username')}
                                 disabled={loading}
+                                autoComplete="username"
                             />
                         </div>
                         <div className={classes.input}>
